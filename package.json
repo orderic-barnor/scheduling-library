@@ -1,13 +1,13 @@
 {
   "name": "scheduling-library",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A scheduling library for defining weekly schedules.",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "O. Barnor",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.24.7",
