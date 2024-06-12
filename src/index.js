@@ -1,7 +1,7 @@
 import TableInterface from './TableInterface.js';
 import PeriodInterface from './PeriodInterface.js';
 
-class SchedulingLibrary {
+export default class SchedulingLibrary {
     constructor() {
         this.modal = null;
         this.tableInterface = new TableInterface();
@@ -101,5 +101,3 @@ class SchedulingLibrary {
         document.head.appendChild(styleSheet);
     }
 }
-
-export default SchedulingLibrary;

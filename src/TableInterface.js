@@ -1,4 +1,4 @@
-class TableInterface {
+export default class TableInterface {
   constructor() {
       this.selectedCells = new Set();
   }
@@ -85,5 +85,3 @@ class TableInterface {
       return Object.keys(schedule).length > 0;
   }
 }
-
-export default TableInterface;

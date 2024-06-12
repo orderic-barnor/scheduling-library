@@ -1,5 +1,4 @@
-import SchedulingLibrary from '../dist/schedulelib.js'
-
+import SchedulingLibrary from '../dist/schedulelib.js';
 
 const scheduleLibrary = new SchedulingLibrary();
 scheduleLibrary.init();

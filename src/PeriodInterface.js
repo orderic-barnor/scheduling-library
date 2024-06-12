@@ -1,4 +1,4 @@
-class PeriodInterface {
+export default class PeriodInterface {
   constructor() {
       this.selectedDays = new Set();
   }
@@ -124,5 +124,3 @@ class PeriodInterface {
       return this.selectedDays.size > 0 && daysWithPeriods.length > 0;
   }
 }
-
-export default PeriodInterface;
