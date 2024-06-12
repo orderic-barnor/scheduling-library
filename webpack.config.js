@@ -1,25 +1,15 @@
-// // import { resolve } from 'path';
-
-// export const entry = './src/index.js';
-
-// export const output = {
-//   path: path.resolve(__dirname, 'dist'),
-//   filename: 'shedulelib.js',
-//   library: 'SchedulingLibrary',
-//   libraryTarget: 'umd',
-// };
-
-// export const mode = 'development';
-
 const path = require('path');
 
 module.exports = {
   mode: 'development',
   entry: './src/index.js',
   output: {
-    filename: 'shedulelib.js',
+    filename: 'schedulelib.js',
     path: path.resolve(__dirname, 'dist'),
+    library: 'SchedulingLibrary',
+    libraryTarget: 'umd',
   },
+  devtool: 'source-map',
   module: {
     rules: [
       {
@@ -38,4 +28,5 @@ module.exports = {
       },
     ],
   },
+
 };
